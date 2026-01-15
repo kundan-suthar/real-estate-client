@@ -1,4 +1,7 @@
+import CallToActionSection from "./CallToAction";
+import DiscoverSection from "./DiscoverSection";
 import FeaturesSection from "./FeaturesSection";
+import FooterSection from "./FooterSection";
 import HeroSection from "./HeroSection";
 
 const page = () => {
@@ -6,6 +9,9 @@ const page = () => {
     <div>
       <HeroSection />
       <FeaturesSection />
+      <DiscoverSection />
+      <CallToActionSection />
+      <FooterSection />
     </div>
   );
 };
